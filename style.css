@@ -69,6 +69,10 @@ input{
   background-color: var(--light-green);
 }
 
+input:focus {
+  background:var(--light-green);
+}
+
 ul li:nth-of-type(1){
   background: url(assets/svg/grid.svg) left no-repeat;
 }
