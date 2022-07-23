@@ -1,0 +1,45 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --body-bg-color: #dce4e3;
+  --green: #18c29c;
+  --light-green: #8ed7c6;
+	--light-grey: #dce4e3;
+  --text-color: #084236;
+}
+
+body{
+  font-family: 'Poppins', sans-serif; 
+}
+
+input{
+  display: flex;
+  background:url(assets/svg/search.svg) center left no-repeat;
+  background-size: 25px;
+  padding: 10px;
+  height: 35px;
+}
+
+ul li:nth-of-type(1){
+  background: url(assets/svg/grid.svg) left no-repeat;
+}
+
+ul li:nth-of-type(2){
+  background: url(assets/svg/log-out.svg) left no-repeat;
+}
+
+ul li:nth-of-type(3){
+  background: url(assets/svg/pet.svg) left no-repeat;
+}
+
+ul li:nth-of-type(4){
+  background: url(assets/svg/vet.svg) left no-repeat;
+}
+
+ul li:nth-of-type(5){
+  background: url(assets/svg/settings.svg) left no-repeat;
+}
