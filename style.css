@@ -13,15 +13,60 @@
 }
 
 body{
+  display: flex;
+
+  width: 100vw;
+  height: 100vh;
+
   font-family: 'Poppins', sans-serif; 
+  color: var(--text-color);
+}
+
+aside {
+  display: flex;
+  width: 25%;
+
+  flex-direction: column;
+  justify-content: space-between;
+
+  background-color: var(--green);
+}
+
+nav {
+  padding: .5rem .5rem 0 1rem;
+}
+
+nav > div {
+  display: flex;
+  justify-content: space-between;
+  margin: .8rem .5rem 1.5rem .5rem;
+}
+
+ul li {
+  padding: 1rem 0 1rem 2rem;
+
+  list-style: none;
+  
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
 }
 
 input{
   display: flex;
-  background:url(assets/svg/search.svg) center left no-repeat;
-  background-size: 25px;
-  padding: 10px;
-  height: 35px;
+
+  width: 95%;
+  height: 45px;
+  padding: 25px;
+
+  border: none;
+  border-radius: 15px;
+
+  background:url(assets/svg/search.svg) 7% 50%  no-repeat;
+  background-size: 25px;  
+  background-color: var(--light-green);
 }
 
 ul li:nth-of-type(1){
@@ -42,4 +87,46 @@ ul li:nth-of-type(4){
 
 ul li:nth-of-type(5){
   background: url(assets/svg/settings.svg) left no-repeat;
+}
+
+.perfil {
+  display: flex;
+
+  height: 50px;
+
+  padding: 10px;
+
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: var(--light-green);
+}
+
+.perfil > img{
+  margin: 10px 10px 10px 0;
+}
+
+.perfil > div {
+  width: 200px;
+  display: flex;
+
+  padding-right: 1rem;
+
+  justify-content: space-between;
+}
+
+dt {
+  font-weight: 500;
+}
+dd{
+  font-size: .8rem;
+}
+
+
+main {
+  width: 100%;
+
+  padding: 1rem;
+
+  background-color: var(--body-bg-color);
 }
