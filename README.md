@@ -15,8 +15,8 @@
 
 ## 👀 Preview
  
-> <img src="open.jpeg" title="Preview do projeto Gradiente[opem]">
-> <img src="closed.jpeg" title="Preview do projeto Gradiente[closed]">
+> <img src="md/img/open.jpeg" title="Preview do projeto Gradiente[opem]">
+> <img src="md/img/closed.jpeg" title="Preview do projeto Gradiente[closed]">
 > 
 > 
 <!-- > ### Gif
