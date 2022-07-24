@@ -2,7 +2,8 @@
 <q>Menu de navegacao, SlideBar</q> 
 ## 📜 Status
 > Status: Finalized
-> <a href="https://github.com/IsaacGSS/SiderBar/blob/main/md/sliderBar.md">🚢 SlideBar.md</a>
+> 
+> <a href="https://github.com/IsaacGSS/SiderBar/blob/main/md/sliderBar.md">👌 SlideBar.md</a>
 
 ## 👨‍💻 Technology
 > <img src="https://22fde275-a0f7-493a-9331-c31456c551ee.id.repl.co/img/icons8-javascript.svg" title="Javascript" style="width: 50px;" >
